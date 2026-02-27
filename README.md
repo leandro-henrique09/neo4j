@@ -2,6 +2,16 @@
 
 Este repositório foi criado com o objetivo de estudar modelagem de dados orientada a grafos utilizando o Neo4j.
 
+## 📁 Estudo
+
+Nesta pasta estão reunidos:
+
+- Explicações sobre os principais comandos do Cypher
+- Exemplos práticos de consultas
+- Demonstrações de criação e manipulação de nós e relacionamentos
+- Testes e experimentações com modelagem em grafos
+
+
 ## 📁 modulo1
 
 Neste módulo, desenvolvi um modelo de grafo representando um sistema de streaming, contendo:
