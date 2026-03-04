@@ -1,7 +1,7 @@
 // Neste arquivo eu criei todos os nós de atores/diretores, usuarios, filmes, series e os de generos.
 // No final dessa query, eu realizei as conexões entre ator-filme, diretor-filme, filme-genero, usuario-filme, usuario-serie 
 
-// Nessa mesma pasta, eu deixei um arquivo png com nome de "VisualizaçãoGrafos" para ver todo esse código visualmente.
+// Nessa mesma pasta, eu deixei um arquivo png com nome de "graph-visualization.png" para ver todo esse código visualmente.
 
 CREATE
   (jason:Actor:Director{name:'Jason'}),
