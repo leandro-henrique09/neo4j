@@ -26,3 +26,8 @@ SET a.nome = artista.nome,
     a.pais = artista.pais
 RETURN a
 LIMIT 10;
+
+// CRIAÇÃO DOS NÓS DE GÊNERO
+LOAD CSV WITH HEADERS FROM 'https://drive.google.com/u/0/uc?id=1DmwQgI4lUsqPiZeNmyI7H3_AHGqpy-zP&export=download' AS genero
+MERGE (g:Genero {genero: genero.genero})
+RETURN g
