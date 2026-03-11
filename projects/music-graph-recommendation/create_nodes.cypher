@@ -1,4 +1,4 @@
-// Neste arquivo faço a criação dos nós de Artistas, Músicas e Usuários.
+// Neste arquivo faço a criação dos nós de Artistas, Músicas, Usuários e Gêneros.
 
 
 // CRIAÇÃO DOS NÓS DE MÚSICAS
