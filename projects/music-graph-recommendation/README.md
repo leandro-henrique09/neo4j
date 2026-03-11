@@ -10,7 +10,7 @@ O objetivo é mostrar como um banco de dados em grafo pode ser usado para entend
 
 Esta armazenado a imagem para a visualização do grafo, no arquivo 'graph-visualization.png'
 
-O projeto contém:
+## O projeto contém:
 
 ## Nós:
 
