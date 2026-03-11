@@ -7,11 +7,12 @@ O objetivo é mostrar como um banco de dados em grafo pode ser usado para entend
 ## 📂 Estrutura do Projeto
 
 📂 docs
+
 Esta armazenado a imagem para a visualização do grafo, no arquivo 'graph-visualization.png'
 
 O projeto contém:
 
-Nós:
+## Nós:
 
 Músicas → título e gênero;
 
@@ -21,7 +22,7 @@ Artistas → nome e país;
 
 Gêneros → categorias musicais;
 
-Relacionamentos:
+## Relacionamentos:
 
 Artista → Música (CANTOU)
 
@@ -29,7 +30,7 @@ Música → Gênero (PERTENCE_A)
 
 Usuário → Música (OUVIU)
 
-Análises e Recomendações:
+## Análises e Recomendações:
 
 Identificação das músicas mais escutadas
 
