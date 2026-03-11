@@ -59,3 +59,45 @@ Consolidar conhecimentos em:
 - Uso de propriedades em relacionamentos
 - Construção de consultas eficientes em Cypher
 - Aplicação prática dos conceitos em cenários reais
+
+--- 
+
+---
+
+---
+
+---
+
+### 📌 music-recommendation-graph
+
+Projeto que modela um sistema de streaming musical utilizando Neo4j, contendo:
+
+- 👤 Usuários
+- 🎵 Músicas
+- 🎤 Artistas
+- 🎭 Gêneros
+- 🔗 Modelagem aplicada
+
+## O projeto implementa:
+
+- Relacionamentos entre artistas e músicas (CANTOU)
+- Associação entre músicas e gêneros (PERTENCE_A)
+- Registro de quais músicas os usuários ouviram (OUVIU)
+- Contagem de interações e recomendações baseadas no comportamento de usuários similares
+- As recomendações foram construídas explorando os relacionamentos do grafo, permitindo sugerir músicas que usuários 
+  semelhantes já ouviram, aproveitando o poder do modelo orientado a grafos para análises complexas de conexões.
+
+## 🛠 Tecnologias utilizadas
+
+- Neo4j
+- Cypher Query Language
+- CSVs para carregamento inicial dos dados
+
+## 🎯 Objetivo
+
+- Consolidar conhecimentos em:
+- Modelagem de grafos para dados musicais
+- Estruturação de nós e relacionamentos entre usuários, músicas, artistas e gêneros
+- Uso de propriedades em nós e relacionamentos
+- Construção de consultas e análises eficientes em Cypher
+- Implementação prática de recomendações personalizadas em um sistema de streaming musical

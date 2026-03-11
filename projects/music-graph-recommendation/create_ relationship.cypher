@@ -4,8 +4,7 @@ MATCH (m:Musica {musicaId: toInteger(musica.musica_id)})
 MATCH (a:Artista {artistaId: toInteger(musica.artista_id)})
 
 MERGE (a)-[:CANTOU]->(m)
-RETURN a, m
-LIMIT 10;
+RETURN a, m;
 
 // Aqui estou criando a relação entre musicas e generos. 
 LOAD CSV WITH HEADERS FROM 'https://drive.google.com/u/0/uc?id=1DmwQgI4lUsqPiZeNmyI7H3_AHGqpy-zP&export=download' AS genero
