@@ -15,3 +15,9 @@ CREATE CONSTRAINT nome_pessoa_obrigatorio
 IF NOT EXISTS // aqui nós validamos se já não existe a validação
 FOR(p:Pessoa)
 REQUIRE p.nome IS NOT NULL;
+
+// Mostrando todas as constraints do grafo
+SHOW CONSTRAINTS;
+
+// Deletando uma constraint do grafo
+DROP CONSTRAINT nome_constraint

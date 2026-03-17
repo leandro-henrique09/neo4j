@@ -8,7 +8,7 @@
 // apenas mostra como a query vai rodar no sistema
 
 
-// neste exemplo, o explain faz todo o processo da query(sem executar) e mosta oq foi gasto em cada etapa.
+// neste exemplo, o explain faz todo o processo da query(sem executar) e mostra oq foi gasto em cada etapa.
 EXPLAIN
 MATCH (u:Usuario)-[r:CONHECE]->(u2:Usuario)
 RETURN u, r, u2;
